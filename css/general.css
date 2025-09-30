@@ -94,3 +94,8 @@ h4{
 ol{
     color: var(--textocolor);
 }
+
+table, th, td {
+    color: var(--textocolor);
+    text-align: left;
+}
