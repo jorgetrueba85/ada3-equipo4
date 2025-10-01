@@ -99,3 +99,16 @@ table, th, td {
     color: var(--textocolor);
     text-align: left;
 }
+
+th {
+    background-color: #444;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+background-color: #454745;
+}
+
+tr {
+background-color: #3c3f41;
+}
