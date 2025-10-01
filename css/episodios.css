@@ -15,6 +15,10 @@
     }
     td {
       background-color: #444444;
-        color:var(--textocolor)
+      color:var(--textocolor)
     }
-  
+
+    td.tp2, th.tp2 {
+        background-color: #555555 !important;
+        color: var(--textocolor) !important;
+     }
