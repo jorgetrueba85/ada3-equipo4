@@ -1,21 +1,20 @@
+    <style>
     table {
       width: 100%;
       border-collapse: collapse;
       margin: 20px 0;
     }
     th, td {
-      border: 1px solid #333;
+      border: 1px solid #000000;
       padding: 8px;
       text-align: left;
     }
     th {
-      background-color: #444;
-      color: #fff;
+      background-color: #444444;
+      color: #000000;
     }
-    tr:nth-child(even) {
-      background-color: #454745;
+    td {
+      background-color: #444444;
+        color:#000000
     }
-
-    tr {
-      background-color: #3c3f41;
-    }
+  </style>
