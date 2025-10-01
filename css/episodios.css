@@ -10,11 +10,11 @@
       text-align: left;
     }
     th {
-      background-color: #444444;
-      color: #000000;
+      background-color: #313131;
+      color: var(--textocolor);
     }
     td {
       background-color: #444444;
-        color:#000000
+        color:var(--textocolor)
     }
   
