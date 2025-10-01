@@ -1,3 +1,7 @@
 #banner {
     background-image:  url('../img/banner2.jpg');
 }
+
+p {
+    text-align: justify;
+}
