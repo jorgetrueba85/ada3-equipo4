@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario - Gravity Falls</title>
   <link rel="stylesheet" href="css/general.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
   <header>
@@ -24,6 +24,37 @@
       <!-- <li><a href="form.html">Formulario</a></li> -->
     </ul>
   </nav>
+  <main>
+    <h2>Solicitud para unirse a la Sociedad del Ojo Cegado</h2>
+    <p>¡Salve al Ojo Cegado! Complete este formulario con la verdad... o lo que recuerde.</p>
+
+    <form action="#" method="post">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+      <label for="alias">Alias o nombre en clave:</label>
+      <input type="text" id="alias" name="alias" placeholder="Ej. “Iniciado 7”" required>
+
+      <label for="motivacion">¿Por qué desea unirse?</label>
+      <textarea id="motivacion" name="motivacion" rows="4" placeholder="Explique sus motivos" required></textarea>
+
+      <label for="memoria">¿Ha sido víctima de borrado de memoria?</label>
+      <select id="memoria" name="memoria" required>
+        <option value="">Seleccione una opción</option>
+        <option value="si">Sí, varias veces</option>
+        <option value="no">No que recuerde...</option>
+        <option value="talvez">No estoy seguro</option>
+      </select>
+
+      <label for="fecha">Fecha de la solicitud:</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="firma">Firma del solicitante:</label>
+      <input type="password" id="firma" name="firma" placeholder="Ingrese su firma" required>
+
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </main>
   <footer>
     <p>&copy; 2025 Derechos Reservados</p>
   </footer>
