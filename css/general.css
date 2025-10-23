@@ -3,6 +3,12 @@
   --hovertextocolor: rgb(193, 116, 78);
   --hovertextocolor2: rgb(193, 78, 78);
 }
+
+@font-face {
+    font-family: 'Standford Regular';
+    src: url('../fonts/standfordregular.ttf') format('truetype');
+}
+
 body {
     margin: auto;
     padding: 0;
@@ -63,11 +69,15 @@ h1 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: Standford Regular, Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: normal;
 }
 
 a{
     color: var(--textocolor);
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:hover{ 
@@ -111,4 +121,14 @@ background-color: #454745;
 
 tr {
 background-color: #3c3f41;
+}
+
+#destacado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    width: 100%;
 }
