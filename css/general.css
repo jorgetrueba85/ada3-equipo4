@@ -91,6 +91,12 @@ p{
 
 h2 {
     color: var(--textocolor);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Standford Regular, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
 }
 
 h3 {
