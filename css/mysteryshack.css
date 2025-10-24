@@ -17,10 +17,15 @@
   margin: 40px auto;
 }
 
-img {
-    width: 300px;
-    height: 170px;
+.area img {
+    width: 350px;
+    height: 200px;
     border-radius: 10px;
+}
+
+.area img:active {
+    transform: scale(3);
+    transition: transform 0.3s ease;
 }
 
 #areas {
