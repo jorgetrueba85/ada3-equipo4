@@ -7,6 +7,10 @@
     border-radius: 15px;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
 #panel-principal {
   background-color: rgba(0, 0, 0, 0.6);;
   border: 1px solid var(--textocolor);
