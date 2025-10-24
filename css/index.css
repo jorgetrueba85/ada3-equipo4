@@ -16,3 +16,24 @@ main p {
   width: 100%;
   margin: 40px auto;
 }
+
+
+#intro-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    width: 100%;
+}
+
+#destacado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+    width: 100%;
+}
